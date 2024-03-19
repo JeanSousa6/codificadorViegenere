@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel ="stylesheet"   href="./styles/styles.css">
+    <link rel="stylesheet"  href="./styles/media-query.css">
+    <link rel="stylesheet" href="./styles/media-query2.css">
+    <title>Decodificador</title>
+</head>
+<body>
+    <header>
+        <img class ="logo" src="./source/Logo1.png">
+        <h1 class = "conteudo__titulo">Decodificador</h1>
+        <h2 class = "conteudo__subtitulo">Challenges ONE - Oracle Next Education - Alura</h2>
+    </header>
+        <main>
+        <section class="conteudo">
+          
+           <div class ="conteudo__caixas"> 
+            <textarea class = "conteudo__texto" maxlength="2000" rows = "7" cols="30" placeholder="  Digite seu texto"></textarea>
+            <div class="conteudo__saida">
+                <p class="conteudo__tituloPadrao"><strong>Nenhuma mensagem encontrada.<br>
+                     </strong> Digite um texto que você deseja criptografar ou descriptografar.</p>
+              
+              
+                <!--p class="conteudo__tituloPadrao2"> Digite um texto que você deseja criptografar ou descriptografar.</p-->
+            </div>
+        </div>
+        
+        
+        
+        <div class="conteudo__texto__palavra">
+            <a class="conteudo__texto__palavra">Palavra-Chave:        
+            <input type ="text" maxlength="12" class="conteudo__input__palavra">
+            </a>
+            <button class="conteudo__botoes__copiar" onclick="copiar()">Copiar</button>
+            
+        </div>
+            
+        
+        <div class="conteudo__botoes">
+            <button class="conteudo__botoes__codificar" onclick="criptografar()">Criptografar</button>
+            <button class="conteudo__botoes__descodificar" onclick="descriptografar()">Descriptografar</button>
+        </div>
+        
+            </div>
+
+                <p class="conteudo__aviso"><img class="icone1" src="./source/exclamation-circle-fill.svg">
+                    Todos os caracteres serão repassados para letra mínuscula e os acentos e til
+                    serão retirados. <strong>Ex: á = a õ = o </strong>e os demais simbolos <strong>($&*#!)</strong> serão desconsiderados,
+                    substituídos por espaços.
+                </p>
+
+            </div>
+        </section>
+        
+    </main>
+    
+    <footer class="rodape">
+        <a>Dev. Jean Sousa</a>
+        <nav>
+        <a href="https://github.com/JeanSousa6"><img src="./source/github.png">
+        <a href="https://github.com/JeanSousa6"><img class="logo__linkedin" src="./source/linkedin (1).png">
+        </nav>
+    
+    
+    </footer> 
+    
+    <script src="app.js"></script> 
+</body>
+</html>
