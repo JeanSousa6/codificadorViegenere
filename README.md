@@ -10,7 +10,7 @@
 ### Referências 
 
 
-* [Cifra de Vigenére](https://pt.wikipedia.org/wiki/Cifra_de_Vigen%C3%A8re)
+* [Cifra de Vigenère](https://pt.wikipedia.org/wiki/Cifra_de_Vigen%C3%A8re)
 * [Tabela ASCII - IME USP](https://www.ime.usp.br/~kellyrb/mac2166_2015/tabela_ascii.html)
 * [Método Char Code At - Mozilla Web Docs JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String/charCodeAt)
 * [Método Splice - Mozilla Web Docs JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/splice)
